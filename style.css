@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Colors*/
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    --text-size: 15px;
+    --main-font: "Outfit", sans-serif;
+    --title-weigth: 700;
+    --paragraph: 400;
+
+    --center-element: 0 auto;
+}
+
+body {
+    background-color: var(--light-gray);
+    font-size: var(--paragraph);
+}
+
+.container {
+    margin: 10em auto;
+    padding-bottom: 2.5em;
+    width: 90%;
+    background-color: var(--white);
+    max-width: 375px;
+    border-radius: 1.5em;
+    text-align: center;
+}
+
+.QR {
+    width: 100%;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.image {
+    width: 100%;
+    margin: var(--center-element);
+    border-radius: 1em;
+}
+
+.title {
+    margin: var(--center-element);
+    color: var(--dark-blue);
+    font-family: var(--main-font);
+    font-weight: var(--title-weigth);
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    margin: var(--center-element);
+    font-family: var(--main-font);
+    font-weight: var(--text-size);
+    width: 80%;
+}
+
+.atribution {
+    text-align: center;
+    font-size: var(--text-size);
+    margin: var(--center-element);
+    font-family: var(--main-font);
+}
+
+.attribution_text {
+    text-align: center;
+    color: black;
+    font-weight: var(--paragraph);
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+a:hover {
+    color: darkviolet;
+    transition: 0.3s;
+}
